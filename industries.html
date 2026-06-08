@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industries | Indivise Global Consultancy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a href="index.html" class="nav-logo"><img src="assets/images/logo.png" alt="Indivise Global Consultancy" class="nav-logo-img"></a><ul class="nav-links"><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="industries.html">Industries</a></li><li><a href="maintenance.html">Team</a></li><li class="nav-cta-mobile"><a href="contact.html">Engage Us</a></li></ul><a href="contact.html" class="nav-cta">Engage Us</a><button class="nav-hamburger" aria-label="Toggle navigation"><span></span><span></span><span></span></button></nav>
+<main>
+  <section class="page-hero industries-page-hero">
+    <div class="industries-hero-text">
+      <div class="hero-eyebrow">Industries</div>
+      <h1><span class="heading-white">Industries &amp;</span><span class="heading-gold">Client Segments.</span></h1>
+      <p>Every industry has a different risk profile. Indivise Global Consultancy adapts legal, governance, policy, and strategy work to the operating realities of each client segment.</p>
+    </div>
+    <div class="industries-hero-img-col">
+      <img src="assets/images/indivise5.png" alt="Indivise Global Consultancy" class="industries-hero-img">
+    </div>
+  </section>
+  <div class="section-divider"></div>
+  <section class="industries-section"><h2>Client <em>Segments</em></h2><div class="industries-grid">
+    <div class="industry-item"><i data-lucide="rocket"></i>Startups & New Ventures</div><div class="industry-item"><i data-lucide="landmark"></i>Finance & FinTech</div><div class="industry-item"><i data-lucide="cpu"></i>Technology & AI</div><div class="industry-item"><i data-lucide="heart-pulse"></i>Healthcare & Pharma</div><div class="industry-item"><i data-lucide="shopping-bag"></i>D2C & E-Commerce</div><div class="industry-item"><i data-lucide="store"></i>MSMEs & SMEs</div><div class="industry-item"><i data-lucide="building-2"></i>Builders & Real Estate</div><div class="industry-item"><i data-lucide="factory"></i>Manufacturing</div><div class="industry-item"><i data-lucide="graduation-cap"></i>Education & Research</div><div class="industry-item"><i data-lucide="landmark"></i>Government & Public</div><div class="industry-item"><i data-lucide="leaf"></i>ESG & Sustainability</div><div class="industry-item"><i data-lucide="megaphone"></i>Marketing Agencies</div>
+  </div></section>
+  <section class="content-section"><div class="section-header"><h2>Common <em>Mandates</em></h2></div><div class="detail-grid detail-grid-3">
+    <article class="detail-card"><h3>Startup Readiness</h3><p>Founder agreements, compliance basics, investor diligence support, policies, commercial contracts, and market-entry planning.</p></article>
+    <article class="detail-card"><h3>Financial Regulation</h3><p>Risk frameworks, product governance, customer-facing documentation, RBI-readiness inputs, and process control design.</p></article>
+    <article class="detail-card"><h3>Digital & Data Risk</h3><p>Privacy notices, consent flows, AI governance, vendor policies, data handling SOPs, and platform accountability systems.</p></article>
+    <article class="detail-card"><h3>Public Sector & Policy</h3><p>Consultation papers, implementation frameworks, stakeholder engagement, reform notes, and capacity-building programmes.</p></article>
+    <article class="detail-card"><h3>Healthcare & Life Sciences</h3><p>Compliance mapping, patient-data governance, claims and communication review, and partner/vendor documentation.</p></article>
+    <article class="detail-card"><h3>ESG & Manufacturing</h3><p>Reporting readiness, supplier standards, internal controls, sustainability narratives, and operational governance.</p></article>
+  </div></section>
+</main>
+<section class="cta-section" id="contact">
+  <div class="cta-bg"></div>
+  <h2>Ready to <em>Engage?</em></h2>
+  <p>Whether you need a one-time strategic mandate or an ongoing advisory partnership, Indivise Global Consultancy is structured to deliver sustained institutional value.</p>
+  <div class="cta-buttons">
+    <a href="contact.html" class="btn-gold">Contact Us</a>
+    <a href="services.html" class="btn-outline-light">Our Services</a>
+  </div>
+  <p style="margin-top: 1.5rem;"><a href="tel:+918826090915" style="color: inherit; text-decoration: none;">+91 88260 90915</a></p>
+</section>
+<footer><div><a href="index.html" class="footer-logo"><img src="assets/images/logo.png" alt="Indivise Global Consultancy" class="footer-logo-img"></a><div class="footer-tagline">Indivise Global Consultancy</div></div><ul class="footer-links"><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="industries.html">Industries</a></li><li><a href="maintenance.html">Team</a></li><li><a href="contact.html">Contact</a></li></ul><div class="footer-copy">&copy; 2026 Indivise Global Consultancy</div></footer>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
+<script src="script.js" defer></script>
+<script>
+  const hamburger = document.querySelector('.nav-hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+  }
+</script>
+</body>
+</html>
+
